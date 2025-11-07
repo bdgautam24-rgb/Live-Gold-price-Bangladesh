@@ -1,0 +1,9 @@
+{
+  "name": "live-gold-price-bangladesh",
+  "main": "_worker.js",
+  "compatibility_date": "2025-11-07",
+  "site": {
+    "bucket": "./",
+    "entry-point": "workers-site"
+  }
+}
