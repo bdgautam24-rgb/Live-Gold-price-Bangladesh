@@ -1,0 +1,13 @@
+{
+  "name": "live-gold-price-bangladesh",
+  "version": "1.0.0",
+  "description": "Live Gold Price Bangladesh static site deployed on Cloudflare Worker",
+  "main": "index.js",
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.2.0"
+  }
+}
